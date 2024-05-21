@@ -611,6 +611,7 @@ background-color: var(--white);
     
 }
 .postmail-email__btn{
+    cursor: pointer;
     width: 200px;
     height: 50px;
     outline: none;
