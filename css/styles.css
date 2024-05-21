@@ -695,7 +695,6 @@ background-color: var(--white);
     width: 370px;
     height: 294px;
     padding: 63px 24px 91px;
-
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -813,6 +812,18 @@ background-color: var(--white);
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 1);
     gap: 4px;
+    position: relative;
+}
+.modal-form__position svg{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 34px;
+    left: 12px;
+}
+.modal-form__position input:focus + svg,
+.modal-form__position input:hover+svg{
+    fill: var(--light-blue)
 }
 .modal-form__input{
     outline: none;
@@ -869,4 +880,11 @@ background-color: var(--white);
 .modal-form__input:focus,
 .modal-form__comment:focus{
     border-color: var(--light-blue);
+    box-shadow:
+    1px 4px 6px 0px #00000029,
+    0px 4px 4px 0px #0000000F,
+    0px 1px 1px 0px #0000001F;
+    transition-property: color, background-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
