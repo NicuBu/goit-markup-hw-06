@@ -362,8 +362,23 @@
                     </li>
                 </ul>
         </div>
+        <div class="postmail">
+            <h2 class="postmail__title">subscribe to the newsletter</h2>
+            <form name="postmail-email" class="postmail-email">
+                <label class="postmail-email__position">
+                <input type="email" name="email" placeholder="E-mail" class="postmail-email__input">
+                </label>
+                <button type="submit" class="postmail-email__btn">Subscribe
+                    <svg width="24px" height="24px" class="postmail-email__icon">
+                        <use href="./img/symbol-defs.svg#icon-iconsend"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
         </div>
     </footer>
+
+    <!-- Modal section-->
 
     <div data-modal class="is-hidden">
         <div data-modal-content>
@@ -395,7 +410,7 @@
             </label>
             <label class="modal-form__position modal-form__checked form-checked">
                 <input type="checkbox" name="agree" value="agree" class="modal-form__input"/>
-                <span class="replace-checkbox modal-checkbox__position">
+                <span class="replace-checkbox            modal-checkbox__position">
                     <svg>
                         <use href="./img/symbol-defs.svg#icon-check"></use>
                     </svg>
