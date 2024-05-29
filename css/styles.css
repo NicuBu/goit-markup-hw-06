@@ -51,8 +51,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 215px;
-    padding-right: 225px;
+    padding-left: 15px;
+    padding-right: 25px;
         
 
 }
@@ -586,7 +586,7 @@ background-color: var(--white);
 
 .footer .container{
     display: flex;
-    padding-left: 215px;
+    padding-left: 15px;
     gap: 70px;
     
 }
@@ -770,7 +770,7 @@ background-color: var(--white);
 
 /*clase universale section style */
 .container{
-    width: 1600px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
